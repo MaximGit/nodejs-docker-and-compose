@@ -1,7 +1,7 @@
 services:
   backend:
     container_name: backend
-    image: 1984630559/backend-kupipodariday:1.0.0
+    image: 1984630559/backend-kupipodariday:1.0.1
     ports:
       - '4000:3000'
     env_file: .env
